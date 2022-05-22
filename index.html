@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="bigdiv">
+    <div>
+    <h1 class="tit1">Todo List</h1>
+</div>
+<div>
+    <input type="text" id="dis_task" placeholder="add a new task" class="task">
+    <input type="date" id="date_task" class="task">
+    <input type="time" name="" id="time_task" class="task">
+    <button id="button_add" class="task">Add</button>
+</div>
+<div><label class="tit2">Your List :</label></div>
+
+    <table class="table1">
+        <thead class="thead" >
+            <tr>
+                <td>task</td>
+                <td>date</td>
+                <td>time</td>
+                <td>delete</td>
+            </tr>
+        </thead>
+        <tbody id="table_data" class="tbody1"></tbody>
+    </table>
+</div>
+    <script src="script/script.js"></script>
+</body>
+</html>
